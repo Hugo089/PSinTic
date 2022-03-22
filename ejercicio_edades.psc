@@ -10,12 +10,24 @@ Algoritmo ejercicio_edades
 	Escribir "Dime la edad de Jose"
 	Leer edadJose
 	
+	
+	
 	//Intercambio de variables
 	aux = edadJuan
 	edadJuan = edadJose
 	edadJose = aux
 	
-	Escribir "la edad de Juan es ", edadJuan, " y  la edad de Jose es ", edadJose
+	//Mayor o menor de edad
+	Si edadJuan>=18 Entonces
+		Escribir "La edad de Juan es ", edadJuan, " es mayor de edad "
+	SiNo
+		Escribir "La edad de Juan es ", edadJuan, " es menor de edad "
+	Fin Si
+	Si edadJose>=18 Entonces
+		Escribir "La edad de Jose es ", edadJose, " es mayor de edad "
+	SiNo
+		Escribir "La edad de Jose es ", edadJose, " es menor de edad "
+	Fin Si
 	
 	
 	
